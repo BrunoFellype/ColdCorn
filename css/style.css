@@ -4,24 +4,24 @@
 
 body{
     background-color: black;
+    color: aliceblue;
 }
-
-header nav{
-    display: flex;
-    justify-content: left;
-    align-items: center;
+header nav ul {
     background-color: rgb(46, 44, 44);
-    padding: 10px;
-}
-
-ul {
     list-style-type: none;
     margin: 0;
-    position: absolute;
-    right: 0;
     padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-
+.logo{
+    color: blueviolet;
+    position:absolute;
+    left: 0;
+}
 li{
     float: left;
 }
@@ -30,6 +30,17 @@ li a{
     text-decoration: none;    
     text-align: center;
     display: block;
-    padding: 20px;
+    padding: 20px;  
     color: white;
+}
+li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.topmovies {
+    padding: 10px
+}
+
+.topmovies-images{
+    display: flex;
 }
