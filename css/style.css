@@ -17,10 +17,11 @@ header nav ul {
     display: flex;
     justify-content: center;
 }
-.logo{
-    color: blueviolet;
+.logo img{
     position:absolute;
-    left: 0;
+    height: 50px;
+    top: 5px;
+    left: 10px;
 }
 li{
     float: left;
@@ -30,17 +31,34 @@ li a{
     text-decoration: none;    
     text-align: center;
     display: block;
+    border-radius: 12px;
     padding: 20px;  
     color: white;
 }
-li a:hover{
+
+li a:not(.logo):hover{
     background-color: aliceblue;
     color: black;
 }
 .topmovies {
-    padding: 10px
+    width: 100%;
+    overflow-x: auto;
 }
-
+.topmovies h2{
+    position:sticky;
+    left:0;
+    width: 100%;
+}
+/*.topmovies::-webkit-scrollbar{
+    display: none;
+    }*/
+    
 .topmovies-images{
     display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
 }
+ .midia img{
+    height:250px; 
+    width:175px;
+ }
