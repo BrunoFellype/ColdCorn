@@ -18,7 +18,7 @@ header nav ul {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .logo img{
     position:absolute;
@@ -48,8 +48,6 @@ header nav ul {
     right: 25px;
     top: 22px;
 }
-
-
 
 .perfil-menu{
     display:none;
@@ -102,4 +100,27 @@ header nav ul {
  .midia img{
     height:250px; 
     width:175px;
+ }
+
+ .sobre p{
+    width: 100%;
+    text-align: center;
+    text-align: justify;
+ }
+
+ .descricao{
+    margin-left: auto;
+    width: 700px;
+    text-align: left;
+    padding-top: 25px;
+    padding-right: 40px;
+ }
+ .descricao p{
+    font-size: 24px;
+    text-align: justify;
+    padding-right: 40px;
+ }
+
+ .descricao h1{
+    font-size: 40px;
  }
