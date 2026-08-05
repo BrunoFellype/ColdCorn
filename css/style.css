@@ -108,6 +108,18 @@ header nav ul {
     text-align: justify;
  }
 
+ .detalhes{
+    display: flex;
+
+ }
+
+.cartaz img{
+    height: 400px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 25px;
+ }
+
  .descricao{
     margin-left: auto;
     width: 700px;
